@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: blog
-          image: ghcr.io/USERNAME/pipeline_blog:latest
+          image: ghcr.io/Numberbis/pipeline_blog:latest
           ports:
             - containerPort: 80
