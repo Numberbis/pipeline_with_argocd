@@ -13,7 +13,7 @@ spec:
         app: blog
     spec:
       containers:
-        - name: blog
-          image: ghcr.io/Numberbis/pipeline_blog:latest
+        - name: blog-nginx
+          image: nginx:1.7.9 #ghcr.io/Numberbis/pipeline_blog:latest
           ports:
             - containerPort: 80
