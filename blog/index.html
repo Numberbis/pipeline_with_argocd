@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Blog DevOps</title>
+  <title>DevOps Blog</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; }
+    header { text-align: center; }
+    nav a { margin-right: 1rem; }
+    article { margin-bottom: 2rem; }
+  </style>
 </head>
 <body>
-  <h1>Bienvenue sur le blog DevOps</h1>
-  <p>Ce site est déployé via Argo CD.</p>
+  <header>
+    <h1>DevOps Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+  <section>
+    <article>
+      <h2><a href="posts/getting-started-with-ci.html">Getting Started with CI</a></h2>
+      <p>Learn how to automate your builds with a simple CI pipeline.</p>
+    </article>
+    <article>
+      <h2><a href="posts/argo-cd-basic-setup.html">Argo CD Basic Setup</a></h2>
+      <p>An introduction to deploying with Argo CD.</p>
+    </article>
+  </section>
 </body>
 </html>
