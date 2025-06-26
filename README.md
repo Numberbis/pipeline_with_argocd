@@ -1,10 +1,10 @@
 # pipeline_with_argocd
 
-Ce dépôt fournit un exemple minimal de pipeline CI/CD utilisant **Argo CD** pour déployer un simple blog statique.
+Ce dépôt fournit un exemple minimal de pipeline CI/CD utilisant **Argo CD** pour déployer un simple blog statique sur le thème DevOps.
 
 ## Structure du projet
 
-- `blog/` : contient la page HTML du blog.
+- `blog/` : contient les pages HTML du blog DevOps.
 - `Dockerfile` : image basée sur Nginx servant les fichiers statiques.
 - `k8s/` : manifests Kubernetes (Deployment et Service).
 - `argocd/application.yaml` : définition de l'application Argo CD.
