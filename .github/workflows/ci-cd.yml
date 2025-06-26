@@ -43,3 +43,4 @@ jobs:
           password: ${{ secrets.ARGOCD_PASSWORD }}
           insecure: true
 
+
