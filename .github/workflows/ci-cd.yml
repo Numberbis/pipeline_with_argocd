@@ -33,7 +33,7 @@ jobs:
           tags: ghcr.io/${{ github.repository_owner }}/pipeline_blog:latest
 
       - name: Deploy via ArgoCD
-        uses: argoproj-labs/argocd-action@v2
+        uses: argoproj/argocd-action@v2.7.7
         with:
           version: v2.7.7
           command: app
